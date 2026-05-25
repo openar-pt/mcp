@@ -1,6 +1,6 @@
 {
   "name": "@openar/mcp",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "MCP server for openAR — Portuguese parliamentary data",
   "type": "module",
   "bin": {
@@ -25,6 +25,10 @@
     "parlamento",
     "portugal"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openar-pt/mcp"
+  },
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
