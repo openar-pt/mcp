@@ -1,4 +1,4 @@
-<img src="banner.svg" alt="openAR" width="100%"/>
+<img src="https://raw.githubusercontent.com/openar-pt/mcp/main/banner.svg" alt="openAR" width="100%"/>
 
 # @openar/mcp
 
