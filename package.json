@@ -1,0 +1,31 @@
+{
+  "name": "@openar/mcp",
+  "version": "0.1.1",
+  "description": "MCP server for openAR — Portuguese parliamentary data",
+  "type": "module",
+  "bin": {
+    "openar-mcp": "dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "openar",
+    "parlamento",
+    "portugal"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3"
+  }
+}
